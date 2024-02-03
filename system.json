@@ -1,0 +1,60 @@
+{
+  "id": "secret-histories",
+  "title": "Secret Histories",
+  "description": "Secret histories are layered beneath the one we know, like the notes in rare wine. Implemented by Brandon, originally written and designed by Lottie Bevan and Alexis Kennedy.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "11"
+  },
+  "authors": [
+    {
+      "name": "Brandon",
+      "url": "https://github.com/bjpaupor",
+      "email": "bjpaupor@gmail.com",
+      "discord": "brandon"
+    }
+  ],
+  "scripts": [
+  ],
+  "esmodules": [
+  ],
+  "styles": [
+    "styles/secret-histories.css"
+  ],
+  "packs": [
+    {
+      "name": "characters",
+      "label": "Player Character Options",
+      "type": "Actor"
+    },
+    {
+      "name": "npcs",
+      "label": "Non-Player Characters",
+      "type": "Actor"
+    },
+    {
+      "name": "artefacts",
+      "label": "Artefacts",
+      "type": "Item"
+    }
+  ],
+"languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "socket": false,
+  "initiative": "@attributes.Dexterity.value",
+  "gridDistance": 1,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "resources.fascination",
+  "secondaryTokenAttribute": "resources.dread",
+  "url": "https://github.com/bjpaupor/secret-histories/",
+  "background": "systems/secret-histories/assets/splash.png",
+  "manifest": "https://github.com/bjpaupor/secret-histories/blob/main/system.json",
+  "download": "https://github.com/bjpaupor/secret-histories/blob/main/archive.zip"
+}
